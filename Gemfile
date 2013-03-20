@@ -5,7 +5,12 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'execjs'
+gem 'libv8', 		'~> 3.11.8.13', :platform => :ruby
+gem 'therubyracer',	'~>0.11.3',		:platform => :ruby
 gem 'pg'
+gem 'bootstrap-sass'
+gem 'devise'
 
 
 # Gems used only for assets and not required
