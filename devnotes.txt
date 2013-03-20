@@ -1,0 +1,10 @@
+=== DEV NOTES ===
+
+TODO:
+* Implement GitHub log-in
+* Account level/progression box-view
+* Character artwork
+* Item/skill classifications
+* Tune the levels to different people's "playstyles"
+* Levels that actually use the code created to solve conflict
+* Badass level that involves people teaming up
