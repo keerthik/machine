@@ -9,7 +9,7 @@ development:
   database: machinequest_development
   host: localhost
   pool: 5
-  username: postgres
+  username: machine
   password: codeit
   timeout: 5000
 
@@ -22,7 +22,7 @@ test:
   database: machinequest_test
   host: localhost
   pool: 5
-  username: postgres
+  username: machine
   password: codeit
   timeout: 5000
 
@@ -32,6 +32,6 @@ production:
   database: machinequest
   host: localhost
   pool: 5
-  username: postgres
+  username: machine
   password: codeit
   timeout: 5000
