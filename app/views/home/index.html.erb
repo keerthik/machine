@@ -1,2 +1,13 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% content_for :head do %>
+  <!--Load up them libraries-->
+  <!-- Include progression javascript file -->
+  <%= javascript_include_tag "progression" %>
+
+<% end %>
+
+<h1>Welcome to Machine Quest</h1>
+<h2>Level Progression</h2>
+<div id="prog"></div>
+<script type="text/javascript">
+	LoadData();
+</script>

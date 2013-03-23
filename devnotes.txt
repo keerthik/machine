@@ -1,10 +1,14 @@
 === DEV NOTES ===
 
 TODO:
+IMPLEMENTATION:
 * Implement GitHub log-in
 * Account level/progression box-view
 * Character artwork
 * Item/skill classifications
-* Tune the levels to different people's "playstyles"
+
+LEVEL DESIGN:
+* Tune the levels to different people's "playstyles" - or rather allow them to discover their preferred playstyle
+* Assimilation of code - pick up nuances from existing code rather than chunks from SO/Google
 * Levels that actually use the code created to solve conflict
-* Badass level that involves people teaming up
+* Badass level that involves people collaborating

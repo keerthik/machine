@@ -1,6 +1,9 @@
 Machine::Application.routes.draw do
   resources :levels
 
+  match'auth/:provider/callback', to: redirect('/')
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
 
   get "home/index"
 

@@ -10,8 +10,9 @@ gem 'libv8', 		'~> 3.11.8.13', :platform => :ruby
 gem 'therubyracer',	'~>0.11.3',		:platform => :ruby
 gem 'pg'
 gem 'bootstrap-sass'
-gem 'devise'
 
+gem 'omniauth-github', :git => 'git://github.com/intridea/omniauth-github.git'
+gem 'omniauth-openid', :git => 'git://github.com/intridea/omniauth-openid.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
