@@ -34,4 +34,8 @@ Machine::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ENV['GITHUB_KEY'] = "d871db8ec97f33c35023";
+  ENV['GITHUB_SECRET'] = "1487c82776322f96d2012bdef6635942c9af6a77";
+
 end
